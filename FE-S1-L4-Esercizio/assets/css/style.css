@@ -11,88 +11,116 @@ body {
   background-image: url(../img/sfondo.png);
 }
 
-h1{
-    font-size: 1.7em;
-    font-weight: 600;
-    margin-top: 0.8em;
-    margin-bottom: 0.8em;
-    margin-right: 0.8em;
-    margin-left: 0;
+h1 {
+  font-size: 1.7em;
+  font-weight: 600;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+  margin-right: 0.8em;
+  margin-left: 0;
 }
 
-h2{
-    font-size: 1.5em;
+li {
+  font-size: 1em;
 }
 
-li{
-    font-size: 1em;
+p,
+ul,
+ol {
+  font-size: 1em;
+  font-weight: 300;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  margin-right: 0.5em;
 }
 
-p{
-    font-size: 1em;
-    font-weight: 300;
-    margin-top: 0.5em;
-    margin-bottom: 1em;
-    margin-right: 0.5em;
-}
-
-p strong{
-    color: #aa2072;
+p strong {
+  color: #aa2072;
+  font-weight: 500;
 }
 
 /* HEADER */
-header{
-    margin: 1em;
-    background-image: linear-gradient(to bottom,#0099c0,#006888);
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
-    box-shadow: 1px 5px 10px #434f55 ;
+header {
+  margin: 1em;
+  background-image: linear-gradient(to bottom, #0099c0, #006888);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 1px 5px 10px #434f55;
 }
 
 header a {
-    color: white;
-    font-weight: 600;
-    text-decoration: none;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .logo {
-    width: 15em;
+  width: 15em;
 }
 
 header p {
-    margin: 1em;
-    font-weight: 600;
+  margin: 1em;
+  font-weight: 600;
 }
 
 /* MAIN */
-main{
-    margin: 0% 1em;
-    background-color: white;
-    box-shadow: 1px 5px 10px #434f55 ;
+main {
+  margin: 0% 1em;
+  background-color: white;
+  box-shadow: 1px 5px 10px #434f55;
 }
 
-.video{
-   
+ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+  line-height: 1.4;
+}
+
+ul span {
+  background-color: #e3e5e3;
+  border-radius: 20px;
+  border: 1px solid grey;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 1.5em;
+}
+
+.video {
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
-article{
-    padding: 1em;
+article {
+  padding: 1em;
 }
 
 #author {
-    color: #a99ba8;
+  color: #a99ba8;
 }
 
 /* TABELLE */
+table {
+}
+
+caption {
+  font-style: italic;
+  font-weight: 400;
+}
+
+thead {
+  background-color: #4067cf;
+  color: white;
+  height: 40px;
+}
 
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
-footer{
-    margin: 1em;
-    background-image: linear-gradient(to bottom,#045267,#333235);
-    box-shadow: 1px 5px 10px #434f55 ;
+footer {
+  margin: 1em;
+  background-image: linear-gradient(to bottom, #045267, #333235);
+  box-shadow: 1px 5px 10px #434f55;
 }

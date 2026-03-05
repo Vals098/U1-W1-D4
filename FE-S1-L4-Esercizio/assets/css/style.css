@@ -71,7 +71,7 @@ main {
   box-shadow: 1px 5px 10px #434f55;
 }
 
-ul {
+#special-li {
   list-style-type: disc;
   padding-left: 1.5em;
   line-height: 1.4;
@@ -101,6 +101,7 @@ article {
 
 /* TABELLE */
 table {
+    border-bottom:  2px solid #4067cf;
 }
 
 caption {

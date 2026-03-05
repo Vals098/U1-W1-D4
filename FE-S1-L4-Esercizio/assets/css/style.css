@@ -45,7 +45,7 @@ header {
   background-image: linear-gradient(to bottom, #0099c0, #006888);
   color: white;
   text-align: center;
-  padding: 40px 20px;
+  padding: 30px 20px;
   box-shadow: 1px 5px 10px #434f55;
 }
 
@@ -89,6 +89,9 @@ ol {
 }
 
 .video {
+  overflow: hidden;
+  height: 200px;
+  border-radius: 25px;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
 article {
@@ -100,13 +103,10 @@ article {
 }
 
 /* TABELLE */
-table {
-    border-bottom:  2px solid #4067cf;
-}
 
 caption {
   font-style: italic;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 thead {
@@ -115,6 +115,36 @@ thead {
   height: 40px;
 }
 
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  border-right: 1px solid white;
+}
+
+td,
+th {
+  padding: 10px;
+  text-align: center;
+}
+
+tr {
+  border-bottom: 2px solid lightgray;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+table {
+  border-bottom: 2px solid #4067cf;
+  border-collapse: collapse;
+}
+
+p a {
+  color: #00a3c6;
+}
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
